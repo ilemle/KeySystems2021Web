@@ -1,0 +1,168 @@
+.body {
+  margin: 0;
+}
+.LoginForm {
+  display: block;
+  background-color: rgb(238, 144, 144);
+  margin: 0 auto;
+}
+
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: rgb(181, 212, 224);
+  /* lightblue */
+  min-height: 100vh;
+  overflow: hidden;
+}
+.LoginForm {
+  border-radius: 7px;
+  /* border-style:solid; */
+  background-color: rgb(119, 198, 224);
+  /* rgb(132, 169, 184); */
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 5px;
+  margin-top: 37ex;
+  padding: 10px;
+}
+.InputLogin {
+  width: 300px;
+  height: 24px;
+  border-radius: 4px;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  outline: none;
+  border-width: 1px;
+  text-align: center;
+}
+.AutorButton {
+  width: 240px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: rgb(89, 228, 89);
+  outline: none;
+  box-shadow: none;
+  border-style: solid;
+  /* rgba(75, 219, 75,1); */
+}
+.AutorButton:hover {
+  width: 240px;
+  height: 40px;
+  border-radius: 4px;
+  border-color: black;
+  border-style: solid;
+}
+.AutorButton:active {
+  width: 240px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: rgb(41, 214, 41);
+  border-style: solid;
+}
+.Main {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+.Navigator {
+  background-color: rgb(99, 193, 224);
+  flex: 7;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+  border-right-width: 1px;
+  border-style: solid;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.ButtonSpace{
+  margin-top: 95px;
+  width: 200px;
+
+}
+.TypeButton {
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  border-style: solid;
+  outline: none;
+  box-shadow: none;
+  margin-top: 40px;
+}
+.TypeButton:hover {
+  width: 200px;
+  height: 50px;
+  outline: none;
+  box-shadow: none;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: black;
+}
+.DashBoard {
+  background-color: rgb(181, 212, 224);
+  flex: 30;
+  display: flex;
+  flex-direction: row;
+}
+.CloseButton {
+
+  flex: 1;
+  width: 70px;
+  height: 30px;
+  border-radius: 3px;
+  margin: 10px;
+  text-align: right;
+  border-style: solid;
+  background-color: rgba(255, 0, 0, 0.85);
+}
+.CloseButton:hover {
+  width: 70px;
+  height: 30px;
+  border-radius: 3px;
+  border-color: black;
+  border-style: solid;
+  margin: 10px;
+  text-align: right;
+  background-color: rgba(255, 0, 0, 1);
+}
+.DashBoardSpace {
+  flex: 15;
+  text-align: center;
+  margin-top:40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.MaxNavigator {
+  margin: 10px;
+  margin-right: 20px;
+  margin-left: auto;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  position:fixed;
+
+  width:100%;
+  background-color:rgb(87, 161, 245);
+  height: 50px;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1;
+  border-color: black;
+}
+.ant-table-row:visited{
+  background-color: red;
+}
